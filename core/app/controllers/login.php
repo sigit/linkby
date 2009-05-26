@@ -55,11 +55,11 @@ class Login extends MY_Controller
 
             $this->session->set_userdata($this->form_cache_retyping); //Saves the session
 
-            redirect('/welcome/'); //Back to home for new login.
+            redirect('/home/'); //Back to home for new login.
 
         } else {
 
-            redirect('/welcome/'); //Redirects user to he's page.
+            redirect('/home/'); //Redirects user to he's page.
 
         }
 
